@@ -1,0 +1,247 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZDu9VKc5aboO7ghj1Coc">
+    <mxGraphModel dx="2182" dy="962" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KWB0qzKm3uiNw15HVpax-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" value="Администратор" vertex="1">
+          <mxGeometry height="150" width="90" x="50" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Визуализация на сигнали, присвоени на всеки служител" vertex="1">
+          <mxGeometry height="80" width="120" x="480" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Вписване с име и парола" vertex="1">
+          <mxGeometry height="80" width="120" x="-160" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Преглед на списък със служители" vertex="1">
+          <mxGeometry height="80" width="120" x="-160" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Влизане в профил" vertex="1">
+          <mxGeometry height="80" width="120" x="-160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-11" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-1" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="10" y="160" as="sourcePoint" />
+            <mxPoint x="130" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="50" y="280" as="sourcePoint" />
+            <mxPoint x="220" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-13" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="ZBiIwvF4eclLZkUwarER-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="200" as="sourcePoint" />
+            <mxPoint x="190" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-14" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-10" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-50" y="190" as="sourcePoint" />
+            <mxPoint x="110" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-16" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-18" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-17" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-470" y="560" as="sourcePoint" />
+            <mxPoint x="-310" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Преглед на сигнали по карта" vertex="1">
+          <mxGeometry height="80" width="120" x="-200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Извличане на детайли за сигнал по маркер" vertex="1">
+          <mxGeometry height="80" width="120" x="-480" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Филтриране по критерии" vertex="1">
+          <mxGeometry height="80" width="120" x="-480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-23" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-19" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-17" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-480" y="460" as="sourcePoint" />
+            <mxPoint x="-380" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-29" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="GFLST4weca_kt_-O9yPN-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="765" y="229" as="sourcePoint" />
+            <mxPoint x="550" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Визуализация на детайли, извлечени от аудио сигнал" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Преглед на списък с чернови на сигнали" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-32" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-30" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="KWB0qzKm3uiNw15HVpax-31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="695" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWB0qzKm3uiNw15HVpax-33" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="290" as="sourcePoint" />
+            <mxPoint x="270" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Изтриване на служител" vertex="1">
+          <mxGeometry height="80" width="120" x="-160" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-3" edge="1" parent="1" source="ZBiIwvF4eclLZkUwarER-1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="577.5699999999999" y="390" as="sourcePoint" />
+            <mxPoint x="439.9964068711929" y="421.71572875253855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Добавяне на служител" vertex="1">
+          <mxGeometry height="80" width="120" x="-360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-5" edge="1" parent="1" source="ZBiIwvF4eclLZkUwarER-4" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="KWB0qzKm3uiNw15HVpax-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="408" y="550" as="sourcePoint" />
+            <mxPoint x="270" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Изтриване на чернова" vertex="1">
+          <mxGeometry height="80" width="120" x="440" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-7" edge="1" parent="1" source="ZBiIwvF4eclLZkUwarER-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="KWB0qzKm3uiNw15HVpax-31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="705" y="620" as="sourcePoint" />
+            <mxPoint x="380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Добавяне на аудио за транскрипция и създаване на чернова" vertex="1">
+          <mxGeometry height="100" width="140" x="-40.000000000000114" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Преглед на списък със сигнали" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-13" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GFLST4weca_kt_-O9yPN-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="270" as="sourcePoint" />
+            <mxPoint x="300" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Изтриване на сигнал" vertex="1">
+          <mxGeometry height="80" width="120" x="119.99999999999994" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBiIwvF4eclLZkUwarER-15" edge="1" parent="1" source="ZBiIwvF4eclLZkUwarER-14" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="ZBiIwvF4eclLZkUwarER-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="328" y="-108" as="sourcePoint" />
+            <mxPoint x="292" y="-172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-1" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-9" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="KWB0qzKm3uiNw15HVpax-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-70" y="500" as="sourcePoint" />
+            <mxPoint x="-20" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Преглед на детайли за сигнал" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-3" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-2" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ZBiIwvF4eclLZkUwarER-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="852" y="90" as="sourcePoint" />
+            <mxPoint x="340" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Преглед на списък с аудио сигнали" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Изтриване на аудио сигнал" vertex="1">
+          <mxGeometry height="80" width="120" x="279.99999999999994" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-8" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-7" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="GFLST4weca_kt_-O9yPN-6" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="338" y="412" as="sourcePoint" />
+            <mxPoint x="302" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Преглед на детайли за аудио сигнал" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-10" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-9" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="GFLST4weca_kt_-O9yPN-6" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="862" y="610" as="sourcePoint" />
+            <mxPoint x="350" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-11" edge="1" parent="1" source="KWB0qzKm3uiNw15HVpax-1" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZBiIwvF4eclLZkUwarER-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="300" as="sourcePoint" />
+            <mxPoint x="198" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Филтриране по критерии" vertex="1">
+          <mxGeometry height="80" width="120" x="280" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-13" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-12" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;" target="ZBiIwvF4eclLZkUwarER-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="250" y="50" as="sourcePoint" />
+            <mxPoint x="260" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Преглед на карта" vertex="1">
+          <mxGeometry height="80" width="120" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-15" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-14" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="GFLST4weca_kt_-O9yPN-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="530" y="110" as="sourcePoint" />
+            <mxPoint x="360" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Прикачване на документ/обновяване на статус" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-17" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-16" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="GFLST4weca_kt_-O9yPN-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="699.9999999999914" y="260" as="sourcePoint" />
+            <mxPoint x="452.4264068711866" y="248.2842712474578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Филтриране по критерии" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-19" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-18" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="KWB0qzKm3uiNw15HVpax-31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="630" y="150" as="sourcePoint" />
+            <mxPoint x="342" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Преглед на карта" vertex="1">
+          <mxGeometry height="80" width="120" x="600" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-21" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-20" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="KWB0qzKm3uiNw15HVpax-31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="660" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Филтриране по критерии" vertex="1">
+          <mxGeometry height="80" width="120" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-23" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-22" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GFLST4weca_kt_-O9yPN-6" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="290" y="570" as="sourcePoint" />
+            <mxPoint x="250" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#FFFFFF;" value="Одобрение/Отхвърляне" vertex="1">
+          <mxGeometry height="80" width="120" x="600" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GFLST4weca_kt_-O9yPN-27" edge="1" parent="1" source="GFLST4weca_kt_-O9yPN-26" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="KWB0qzKm3uiNw15HVpax-31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="508" y="502" as="sourcePoint" />
+            <mxPoint x="390" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

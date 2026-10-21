@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="D-i2uKKLGTQVEU6goOc1">
+    <mxGraphModel dx="1382" dy="562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-2" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-3" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="440" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Влизане в системата" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-5" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-4" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Сигналът разпределен&lt;div&gt;ли е?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="110" x="325" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-7" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-6" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-13" value="не">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="490" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-8" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-6" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MkFlori6U18OmN1t-KVS-1" value="да">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="410.0000000000002" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Преглед на сигналите в базата от данни" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-10" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-9" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Визуализация на детайли за сигнал" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-12" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-11" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Разпределяне на сигнал" vertex="1">
+          <mxGeometry height="40" width="120" x="480" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-14" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-13" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="MkFlori6U18OmN1t-KVS-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Задаване на статус" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-16" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-15" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-18" edge="1" parent="1" source="MkFlori6U18OmN1t-KVS-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9nJ1WMHo73eDYRa4oMbU-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="697" as="sourcePoint" />
+            <mxPoint x="470" y="947" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Прикачване на документ" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-20" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-19" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Задаване на статус &quot;Приключен&quot;" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="9nJ1WMHo73eDYRa4oMbU-22" edge="1" parent="1" source="9nJ1WMHo73eDYRa4oMbU-21" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9nJ1WMHo73eDYRa4oMbU-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MkFlori6U18OmN1t-KVS-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="425" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
